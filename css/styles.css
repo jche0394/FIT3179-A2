@@ -62,8 +62,8 @@ p {
 }
 
 .vis-container {
-    width: 100%;
-    margin-bottom: 30px;
+    width: 100%;  
+    margin: 0 auto; 
 }
 
 .page {

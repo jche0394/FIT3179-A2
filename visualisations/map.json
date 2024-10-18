@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 450,
+    "title": "Telecom Coverage in Australia",
+    "projection": {
+      "type": "mercator"
+    },
+    "layer": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/SA4_2016_AUST.json",
+          "format": {
+            "type": "topojson",
+            "feature": "SA4_2016_AUST"
+          }
+        },
+        "mark": {
+          "type": "geoshape",
+          "fill": "lightgray",
+          "stroke": "white"
+        }
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/mobile-infrastructure-report-2023-web-chart-data.csv"
+        },
+        "transform": [
+        ],
+        "mark": {
+          "type": "circle",
+          "tooltip": {"content": "data"},
+          "size": 30
+        },
+        "encoding": {
+          "longitude": {"field": "Longitude", "type": "quantitative"},
+          "latitude": {"field": "Latitude", "type": "quantitative"},
+          "color": {
+            "field": "MNO",
+            "type": "nominal",
+            "title": "Company",
+            "scale": {
+              "domain": ["Optus", "Telstra", "TPG"],
+              "range": ["blue", "green", "red"]
+            }
+          }
+        }
+      }
+    ]
+  }
