@@ -1,0 +1,30 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.NAME",
+        "from": {
+          "data": {
+            "url": "path-to-your-data.csv"
+          },
+          "key": "MNO",
+          "fields": ["Latitude", "Longitude", "5G", "4G", "Co_funded"]
+        }
+      }
+    ],
+    "projection": {"type": "mercator"},
+    "mark": "geoshape",
+    "encoding": {
+      "color": {
+        "field": "5G",
+        "type": "quantitative",
+        "scale": {"scheme": "blues"}
+      }
+    }
+  }
