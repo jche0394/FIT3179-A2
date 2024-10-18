@@ -1,112 +1,112 @@
 Year,Total Infringements,CityLink
-2004-2005,23655,CityLink
-2005-2006,65062,CityLink
-2006-2007,57220,CityLink
-2007-2008,44282,CityLink
-2008-2009,16240,CityLink
-2009-2010,14118,CityLink
-2010-2011,15654,CityLink
-2011-2012,13605,CityLink
-2012-2013,21418,CityLink
-2013-2014,31413,CityLink
-2014-2015,33177,CityLink
-2015-2016,39432,CityLink
-2016-2017,45161,CityLink
-2017-2018,33426,CityLink
-2018-2019,35219,CityLink
-2019-2020,30932,CityLink
-2020-2021,35224,CityLink
-2021-2022,25490,CityLink
-2022-2023,33740,CityLink
-2008-2009,151864,EastLink
-2009-2010,149958,EastLink
-2010-2011,120403,EastLink
-2011-2012,105107,EastLink
-2012-2013,91365,EastLink
-2013-2014,84106,EastLink
-2014-2015,77461,EastLink
-2015-2016,85015,EastLink
-2016-2017,78906,EastLink
-2017-2018,69351,EastLink
-2018-2019,79067,EastLink
-2019-2020,66850,EastLink
-2020-2021,62577,EastLink
-2021-2022,65830,EastLink
-2022-2023,67307,EastLink
-2023-2024,42455,EastLink
-2005-2006,159397,Geelong Road
-2006-2007,195711,Geelong Road
-2007-2008,114691,Geelong Road
-2008-2009,137097,Geelong Road
-2009-2010,96670,Geelong Road
-2010-2011,108891,Geelong Road
-2011-2012,102634,Geelong Road
-2012-2013,81803,Geelong Road
-2013-2014,70867,Geelong Road
-2014-2015,85256,Geelong Road
-2015-2016,107439,Geelong Road
-2016-2017,101836,Geelong Road
-2017-2018,104486,Geelong Road
-2018-2019,68234,Geelong Road
-2019-2020,31695,Geelong Road
-2020-2021,21722,Geelong Road
-2021-2022,24260,Geelong Road
-2022-2023,49007,Geelong Road
-2023-2024,26213,Geelong Road
-2006-2007,7908,Hume Freeway
-2007-2008,27564,Hume Freeway
-2008-2009,17427,Hume Freeway
-2009-2010,12970,Hume Freeway
-2010-2011,3669,Hume Freeway
-2011-2012,0,Hume Freeway
-2012-2013,44266,Hume Freeway
-2013-2014,39781,Hume Freeway
-2014-2015,41011,Hume Freeway
-2015-2016,47785,Hume Freeway
-2016-2017,38789,Hume Freeway
-2017-2018,39652,Hume Freeway
-2018-2019,35062,Hume Freeway
-2019-2020,28269,Hume Freeway
-2020-2021,17826,Hume Freeway
-2021-2022,15869,Hume Freeway
-2022-2023,21560,Hume Freeway
-2023-2024,35338,Hume Freeway
-2013-2014,6187,Monash
-2014-2015,9473,Monash
-2015-2016,15494,Monash
-2016-2017,19918,Monash
-2017-2018,18204,Monash
-2018-2019,20618,Monash
-2019-2020,8879,Monash
-2020-2021,5252,Monash
-2021-2022,8333,Monash
-2022-2023,12038,Monash
-2023-2024,3549,Monash
-2013-2014,61881,Peninsula Link
-2014-2015,63698,Peninsula Link
-2015-2016,63258,Peninsula Link
-2016-2017,54265,Peninsula Link
-2017-2018,52610,Peninsula Link
-2018-2019,55912,Peninsula Link
-2019-2020,37939,Peninsula Link
-2020-2021,39891,Peninsula Link
-2021-2022,44851,Peninsula Link
-2022-2023,58950,Peninsula Link
-2023-2024,27451,Peninsula Link
-2006-2007,30359,Western Ring Road
-2007-2008,133551,Western Ring Road
-2008-2009,112819,Western Ring Road
-2009-2010,72786,Western Ring Road
-2010-2011,81279,Western Ring Road
-2011-2012,111503,Western Ring Road
-2012-2013,139163,Western Ring Road
-2013-2014,73072,Western Ring Road
-2014-2015,114770,Western Ring Road
-2015-2016,132478,Western Ring Road
-2016-2017,121275,Western Ring Road
-2017-2018,103338,Western Ring Road
-2018-2019,83336,Western Ring Road
-2019-2020,76620,Western Ring Road
-2020-2021,73052,Western Ring Road
-2021-2022,158536,Western Ring Road
-2022-2023,77532,Western Ring Road
+2004,23655,CityLink
+2005,65062,CityLink
+2006,57220,CityLink
+2007,44282,CityLink
+2008,16240,CityLink
+2009,14118,CityLink
+2010,15654,CityLink
+2011,13605,CityLink
+2012,21418,CityLink
+2013,31413,CityLink
+2014,33177,CityLink
+2015,39432,CityLink
+2016,45161,CityLink
+2017,33426,CityLink
+2018,35219,CityLink
+2019,30932,CityLink
+2020,35224,CityLink
+2021,25490,CityLink
+2022,33740,CityLink
+2008,151864,EastLink
+2009,149958,EastLink
+2010,120403,EastLink
+2011,105107,EastLink
+2012,91365,EastLink
+2013,84106,EastLink
+2014,77461,EastLink
+2015,85015,EastLink
+2016,78906,EastLink
+2017,69351,EastLink
+2018,79067,EastLink
+2019,66850,EastLink
+2020,62577,EastLink
+2021,65830,EastLink
+2022,67307,EastLink
+2023,42455,EastLink
+2005,159397,Geelong Road
+2006,195711,Geelong Road
+2007,114691,Geelong Road
+2008,137097,Geelong Road
+2009,96670,Geelong Road
+2010,108891,Geelong Road
+2011,102634,Geelong Road
+2012,81803,Geelong Road
+2013,70867,Geelong Road
+2014,85256,Geelong Road
+2015,107439,Geelong Road
+2016,101836,Geelong Road
+2017,104486,Geelong Road
+2018,68234,Geelong Road
+2019,31695,Geelong Road
+2020,21722,Geelong Road
+2021,24260,Geelong Road
+2022,49007,Geelong Road
+2023,26213,Geelong Road
+2006,7908,Hume Freeway
+2007,27564,Hume Freeway
+2008,17427,Hume Freeway
+2009,12970,Hume Freeway
+2010,3669,Hume Freeway
+2011,0,Hume Freeway
+2012,44266,Hume Freeway
+2013,39781,Hume Freeway
+2014,41011,Hume Freeway
+2015,47785,Hume Freeway
+2016,38789,Hume Freeway
+2017,39652,Hume Freeway
+2018,35062,Hume Freeway
+2019,28269,Hume Freeway
+2020,17826,Hume Freeway
+2021,15869,Hume Freeway
+2022,21560,Hume Freeway
+2023,35338,Hume Freeway
+2013,6187,Monash
+2014,9473,Monash
+2015,15494,Monash
+2016,19918,Monash
+2017,18204,Monash
+2018,20618,Monash
+2019,8879,Monash
+2020,5252,Monash
+2021,8333,Monash
+2022,12038,Monash
+2023,3549,Monash
+2013,61881,Peninsula Link
+2014,63698,Peninsula Link
+2015,63258,Peninsula Link
+2016,54265,Peninsula Link
+2017,52610,Peninsula Link
+2018,55912,Peninsula Link
+2019,37939,Peninsula Link
+2020,39891,Peninsula Link
+2021,44851,Peninsula Link
+2022,58950,Peninsula Link
+2023,27451,Peninsula Link
+2006,30359,Western Ring Road
+2007,133551,Western Ring Road
+2008,112819,Western Ring Road
+2009,72786,Western Ring Road
+2010,81279,Western Ring Road
+2011,111503,Western Ring Road
+2012,139163,Western Ring Road
+2013,73072,Western Ring Road
+2014,114770,Western Ring Road
+2015,132478,Western Ring Road
+2016,121275,Western Ring Road
+2017,103338,Western Ring Road
+2018,83336,Western Ring Road
+2019,76620,Western Ring Road
+2020,73052,Western Ring Road
+2021,158536,Western Ring Road
+2022,77532,Western Ring Road
