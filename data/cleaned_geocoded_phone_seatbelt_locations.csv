@@ -1,0 +1,373 @@
+Road,Suburb,Effective_Date,Latitude,Longitude,Formatted_Address
+Queen Street,ALTONA,1 October 2024,-37.8694059,144.8310657,"Queen Street, Altona VIC 3018, Australia"
+Dohertys Road,ALTONA NORTH,1 October 2024,-37.8316654,144.8279061,"Dohertys Road, Altona North VIC 3025, Australia"
+Grieve Parade,ALTONA NORTH,1 October 2024,-37.8286986,144.8283206,"Grieve Parade, Altona North VIC 3025, Australia"
+Taylor Street,ASCOT,1 October 2024,-36.7068143,144.3290229,"Taylor Street, Ascot VIC 3551, Australia"
+Taylor Street,ASCOT,1 October 2024,-36.7068143,144.3290229,"Taylor Street, Ascot VIC 3551, Australia"
+Wells Road,ASPENDALE GARDENS,1 October 2024,-38.0199931,145.1209355,"Wells Road, Aspendale Gardens VIC 3195, Australia"
+Gillies Road,BALD HILLS,1 October 2024,-36.9066637,149.8344484,"Bald Hills NSW 2549, Australia"
+Creswick Road,BALLARAT CENTRAL,1 October 2024,-37.5465943,143.8507399,"Creswick Road, Ballarat Central VIC 3355, Australia"
+Anzac Parade,BANDIANA,1 October 2024,-36.1393273,146.9128091,"Anzac Parade, Wodonga VIC 3690, Australia"
+Thompson Road,BANGHOLME,1 October 2024,-38.0712731,145.1892861,"Thompson Road, Bangholme VIC 3175, Australia"
+Worsley Road,BANGHOLME,1 October 2024,-38.0367892,145.187491,"Worsley Road, Bangholme VIC 3175, Australia"
+Kiewa Valley Highway,BARANDUDA,1 October 2024,-36.178047,146.9526807,"Kiewa Valley Highway, Baranduda VIC 3691, Australia"
+Baranduda Boulevard,BARANDUDA,1 October 2024,-36.1794883,146.9451375,"Baranduda Boulevard, Baranduda VIC 3691, Australia"
+Baranduda Boulevard,BARANDUDA,1 October 2024,-36.1794883,146.9451375,"Baranduda Boulevard, Baranduda VIC 3691, Australia"
+Murray Valley Highway,BARAWARTHA,1 October 2024,-36.012206,146.03692,"Murray Valley Highway, Yarrawonga-Mulwala VIC 3730, Australia"
+Hamilton Highway,BERRYBANK,1 October 2024,-37.9776686,143.4865612,"Berrybank, Hamilton Highway, Cressy VIC 3323, Australia"
+Clyde Road,BERWICK,1 October 2024,-38.0634166,145.3377123,"Clyde Road, Berwick VIC 3806, Australia"
+Clyde Road,BERWICK,1 October 2024,-38.0634166,145.3377123,"Clyde Road, Berwick VIC 3806, Australia"
+Princes Highway,BERWICK,1 October 2024,-38.0287306,145.3264245,"Princes Highway, Berwick VIC 3806, Australia"
+Lithgow Street,BEVERIDGE,1 October 2024,-37.4727076,144.966465,"Lithgow Street, Beveridge VIC 3753, Australia"
+Northern Highway Offramp,BEVERIDGE,1 October 2024,-37.4495809,144.9790841,"Northern Highway Offramp, Beveridge VIC 3753, Australia"
+Chisholm Street,BLACK HILL,1 October 2024,-37.5491528,143.8751955,"Chisholm Street, Black Hill VIC 3350, Australia"
+Boundary Road,BRAESIDE,1 October 2024,-38.0025079,145.1051306,"Boundary Road, Braeside VIC 3195, Australia"
+Boundary Road,BRAESIDE,1 October 2024,-38.0025079,145.1051306,"Boundary Road, Braeside VIC 3195, Australia"
+Esplanade,BRIGHTON,1 October 2024,-37.911927,144.9858375,"Esplanade, Brighton VIC 3186, Australia"
+Nepean Highway,BRIGHTON EAST,1 October 2024,-37.915487,145.017876,"Nepean Highway, Brighton East VIC 3187, Australia"
+Hamilton Street,BROADFORD,1 October 2024,-37.2059491,145.0458216,"Hamilton Street, Broadford VIC 3658, Australia"
+High Street,BROADFORD,1 October 2024,-37.2079585,145.0404279,"High Street, Broadford VIC 3658, Australia"
+Brooklyn Road,BROOKFIELD,1 October 2024,-37.6974433,144.5287709,"Brooklyn Road, Brookfield VIC 3338, Australia"
+Black Dog Drive,BROOKFIELD,1 October 2024,-37.6928563,144.5535513,"Black Dog Drive, Brookfield VIC 3338, Australia"
+Geelong Road,BROOKLYN,1 October 2024,-33.5479285,151.2260175,"Brooklyn (Sydney) NSW 2083, Australia"
+Humffray Street N,BROWN HILL,1 October 2024,-37.551625,143.9027762,"Humffray Street North, Brown Hill VIC 3350, Australia"
+Bulla Road,BULLA,1 October 2024,-37.638985,144.8084194,"Bulla Road, Bulla VIC 3428, Australia"
+Barmah-Shepparton Road,BUNBARTHA,1 October 2024,-36.1760606,145.3091705,"Barmah-Shepparton Road, Nathalia VIC 3638, Australia"
+Goulburn Valley Highway,BUNDALONG,1 October 2024,-36.03246,146.16923,"Bundalong (Bundalong), VIC, Australia"
+Goulburn Valley Highway,BUNDALONG,1 October 2024,-36.03246,146.16923,"Bundalong (Bundalong), VIC, Australia"
+Plenty Road,BUNDOORA,1 October 2024,-37.7196969,145.0381641,"Plenty Road, Bundoora VIC 3086, Australia"
+Plenty Road,BUNDOORA,1 October 2024,-37.7196969,145.0381641,"Plenty Road, Bundoora VIC 3086, Australia"
+Plenty Road,BUNDOORA,1 October 2024,-37.7196969,145.0381641,"Plenty Road, Bundoora VIC 3086, Australia"
+Kingsbury Drive,BUNDOORA,1 October 2024,-37.7270087,145.0514441,"Kingsbury Drive, Bundoora VIC 3086, Australia"
+Kingsbury Drive,BUNDOORA,1 October 2024,-37.7270087,145.0514441,"Kingsbury Drive, Bundoora VIC 3086, Australia"
+Snake Gully Drive,BUNDOORA,1 October 2024,-37.7039574,145.0502449,"Snake Gully Drive, Bundoora VIC 3086, Australia"
+Princes Freeway,BUNYIP NORTH,1 October 2024,-38.078059,145.706249,"Princes Highway, Bunyip VIC 3815, Australia"
+Westwood Drive,BURNSIDE,1 October 2024,-37.7587908,144.7553912,"Westwood Drive, Burnside VIC 3023, Australia"
+Sydney Road,CAMPBELLFIELD,1 October 2024,-37.6625921,144.9541987,"Sydney Road, Campbellfield VIC 3061, Australia"
+Main Road,CAMPBELLS CREEK,1 October 2024,-37.1054215,144.1932,"Main Road, Campbells Creek VIC 3451, Australia"
+Truemans Road,CAPEL SOUND,1 October 2024,-38.367135,144.8629682,"Truemans Road, Capel Sound VIC 3940, Australia"
+Victoria Street,CARISBROOK,1 October 2024,-37.0511777,143.8110314,"Victoria Street, Carisbrook VIC 3464, Australia"
+Cobb And Co Road,CARLSRUHE,1 October 2024,-37.2992662,144.5129539,"Cobb and Co Road, Carlsruhe VIC 3442, Australia"
+Westwood Drive,CAROLINE SPRINGS,1 October 2024,-37.7321117,144.7492186,"Westwood Drive, Caroline Springs VIC 3023, Australia"
+Rockbank Middle Road,CAROLINE SPRINGS,1 October 2024,-37.7465757,144.7450531,"Rockbank Middle Road, Caroline Springs VIC 3023, Australia"
+Rockbank Middle Road,CAROLINE SPRINGS,1 October 2024,-37.7465757,144.7450531,"Rockbank Middle Road, Caroline Springs VIC 3023, Australia"
+Western Highway,CAROLINE SPRINGS,1 October 2024,-37.7592262,144.7481937,"Ballarat Road, Caroline Springs VIC 3023, Australia"
+Kennedy Street,CASTLEMAINE,1 October 2024,-37.0660806,144.2141674,"Kennedy Street, Castlemaine VIC 3450, Australia"
+Bowden Street,CASTLEMAINE,1 October 2024,-37.0615226,144.2106775,"Bowden Street, Castlemaine VIC 3450, Australia"
+Hargraves Street,CASTLEMAINE,1 October 2024,-37.0564615,144.2210255,"Hargraves Street, Castlemaine VIC 3450, Australia"
+Queens Avenue,CAULFIELD EAST,1 October 2024,-37.8776705,145.044694,"Queens Avenue, Caulfield East VIC 3145, Australia"
+Dandenong Road,CAULFIELD NORTH,1 October 2024,-37.866082,145.02677,"Dandenong Road, Caulfield North VIC 3161, Australia"
+Batesford Road,CHADSTONE,1 October 2024,-37.8756769,145.0941209,"Batesford Road, Chadstone VIC 3148, Australia"
+Warrigal Road,CHADSTONE,1 October 2024,-37.878005,145.091056,"Warrigal Road, Chadstone VIC 3148, Australia"
+Nepean Highway,CHELSEA,1 October 2024,-38.047775,145.113795,"Nepean Highway, Chelsea VIC 3196, Australia"
+Wells Road,CHELSEA HEIGHTS,1 October 2024,-38.0484074,145.1422767,"Wells Road, Chelsea Heights VIC 3196, Australia"
+Dingley Bypass,CLARINDA,1 October 2024,-37.955762,145.104055,"Dingley Bypass Trail, Clarinda VIC 3169, Australia"
+Dingley Bypass,CLARINDA,1 October 2024,-37.955762,145.104055,"Dingley Bypass Trail, Clarinda VIC 3169, Australia"
+Ferntree Gully Road,CLAYTON,1 October 2024,-37.8997329,145.1290339,"Ferntree Gully Road, Clayton VIC 3168, Australia"
+Wellington Road,CLAYTON,1 October 2024,-37.9159042,145.1382126,"Wellington Road, Clayton VIC 3168, Australia"
+South Gippsland Highway,CLYDE,1 October 2024,-38.1524,145.3164606,"South Gippsland Highway, Clyde VIC 3978, Australia"
+Goulburn Valley Highway,COBRAM,1 October 2024,-35.899967,145.5746864,"Goulburn Valley Highway, Cobram VIC 3644, Australia"
+Goulburn Valley Highway,COBRAM,1 October 2024,-35.899967,145.5746864,"Goulburn Valley Highway, Cobram VIC 3644, Australia"
+Goulburn Valley Highway,COBRAM,1 October 2024,-35.899967,145.5746864,"Goulburn Valley Highway, Cobram VIC 3644, Australia"
+Goulburn Valley Highway,COBRAM,1 October 2024,-35.899967,145.5746864,"Goulburn Valley Highway, Cobram VIC 3644, Australia"
+Maroondah Highway,COLDSTREAM,1 October 2024,-37.7361713,145.3754307,"Maroondah Highway, Coldstream VIC 3770, Australia"
+Maroondah Highway,COLDSTREAM,1 October 2024,-37.7361713,145.3754307,"Maroondah Highway, Coldstream VIC 3770, Australia"
+Maroondah Highway,COLDSTREAM,1 October 2024,-37.7361713,145.3754307,"Maroondah Highway, Coldstream VIC 3770, Australia"
+Pascoe Vale Road,COOLAROO,1 October 2024,-37.6619332,144.9227783,"Pascoe Vale Road, Coolaroo VIC 3048, Australia"
+Purnell Road,CORIO,1 October 2024,-38.0742147,144.3588288,"Purnell Road, Corio VIC 3214, Australia"
+Bacchus Marsh Road,CORIO,1 October 2024,-38.0810864,144.3585393,"Bacchus Marsh Road, Corio VIC 3214, Australia"
+Bacchus Marsh Road,CORIO,1 October 2024,-38.0810864,144.3585393,"Bacchus Marsh Road, Corio VIC 3214, Australia"
+Bacchus Marsh Road,CORIO,1 October 2024,-38.0810864,144.3585393,"Bacchus Marsh Road, Corio VIC 3214, Australia"
+South Gippsland Highway,DANDENONG SOUTH,1 October 2024,-38.0140938,145.2319138,"South Gippsland Highway, Dandenong South VIC 3175, Australia"
+Dingley Bypass,DINGLEY VILLAGE,1 October 2024,-37.9627119,145.1299848,"Dingley Bypass, Dingley Village VIC 3172, Australia"
+Dingley Bypass,DINGLEY VILLAGE,1 October 2024,-37.9627119,145.1299848,"Dingley Bypass, Dingley Village VIC 3172, Australia"
+Melba Highway,DIXONS CREEK,1 October 2024,-37.587823,145.412186,"Melba Highway, Dixons Creek VIC 3775, Australia"
+Melba Highway,DIXONS CREEK,1 October 2024,-37.587823,145.412186,"Melba Highway, Dixons Creek VIC 3775, Australia"
+Mornington Peninsula Freeway,DROMANA,1 October 2024,-38.3301515,144.988807,"Mornington Peninsula Freeway, Dromana VIC 3936, Australia"
+Ryrie Street,EAST GEELONG,1 October 2024,-38.1565186,144.3848715,"Ryrie Street, East Geelong VIC 3219, Australia"
+Nepean Highway,EDITHVALE,1 October 2024,-38.0391436,145.1088785,"Nepean Highway, Edithvale VIC 3196, Australia"
+Nepean Highway,EDITHVALE,1 October 2024,-38.0391436,145.1088785,"Nepean Highway, Edithvale VIC 3196, Australia"
+Dalton Road,EPPING,1 October 2024,-37.6429134,145.0307003,"Dalton Road, Epping VIC 3076, Australia"
+Midland Highway,EPSOM,1 October 2024,-36.6815609,144.3207233,"Midland Highway, Huntly VIC 3551, Australia"
+Bulla Road,ESSENDON NORTH,1 October 2024,-37.735892,144.9047476,"Bulla Road, Essendon North VIC 3041, Australia"
+Moreland Street,FOOTSCRAY,1 October 2024,-37.8008503,144.9078213,"Moreland Street, Footscray VIC 3011, Australia"
+Frankston-Dandenong Road,FRANKSTON NORTH,1 October 2024,-38.1239544,145.1408599,"Frankston-Dandenong Road, Frankston North VIC 3200, Australia"
+Frankston-Flinders Road,FRANKSTON SOUTH,1 October 2024,-38.1593992,145.1350155,"Frankston-Flinders Road, Frankston VIC 3199, Australia"
+Lincoln Causeway,GATEWAY ISLAND,1 October 2024,-36.0930655,146.9036281,"Lincoln Causeway, City of Wodonga VIC 3691, Australia"
+Melton Road,GISBORNE,1 October 2024,-37.5250807,144.564467,"Melton Road, Gisborne VIC 3437, Australia"
+High Street Road,GLEN WAVERLEY,1 October 2024,-37.8758335,145.1807562,"High Street Road, Glen Waverley VIC 3150, Australia"
+Specimen Hill Road,GOLDEN SQUARE,1 October 2024,-36.76369,144.2475632,"Specimen Hill Road, Golden Square VIC 3555, Australia"
+Oaklands Road,GREENVALE,1 October 2024,-37.6438022,144.8339722,"Oaklands Road, Greenvale VIC 3059, Australia"
+Pound Road,HAMPTON PARK,1 October 2024,-38.0261971,145.2473164,"Pound Road, Hampton Park VIC 3976, Australia"
+Warrigal Road,HEATHERTON,1 October 2024,-37.9449421,145.0783749,"Warrigal Road, Heatherton VIC 3202, Australia"
+Colac Road,HIGHTON,1 October 2024,-38.1989536,144.3149068,"Colac Road, Highton VIC 3216, Australia"
+Old Geelong Road,HOPPERS CROSSING,1 October 2024,-37.88021,144.7050447,"Old Geelong Road, Hoppers Crossing VIC 3029, Australia"
+Derrimut Road,HOPPERS CROSSING,1 October 2024,-37.8793327,144.6826391,"Derrimut Road, Hoppers Crossing VIC 3029, Australia"
+Heaths Road,HOPPERS CROSSING,1 October 2024,-37.879348,144.7013179,"Heaths Road, Hoppers Crossing VIC 3029, Australia"
+Heaths Road,HOPPERS CROSSING,1 October 2024,-37.879348,144.7013179,"Heaths Road, Hoppers Crossing VIC 3029, Australia"
+Heaths Road,HOPPERS CROSSING,1 October 2024,-37.879348,144.7013179,"Heaths Road, Hoppers Crossing VIC 3029, Australia"
+Marong Road,IRONBARK,1 October 2024,-36.7560469,144.2631183,"Marong Road, Ironbark VIC 3550, Australia"
+Calder Highway,IRYMPLE,1 October 2024,-34.2470289,142.1842824,"Calder Highway, Irymple VIC 3498, Australia"
+Lower Heidelberg Road,IVANHOE EAST,1 October 2024,-37.770882,145.0626825,"Lower Heidelberg Road, Ivanhoe East VIC 3079, Australia"
+High Street,KANGAROO FLAT,1 October 2024,-36.7882164,144.2453931,"High Street, Kangaroo Flat VIC 3555, Australia"
+High Street,KANGAROO FLAT,1 October 2024,-36.7882164,144.2453931,"High Street, Kangaroo Flat VIC 3555, Australia"
+Goulburn Valley Highway,KATAMATITE,1 October 2024,-36.0796109,145.6873855,"Katamatite VIC 3649, Australia"
+Green Gully Road,KEILOR DOWNS,1 October 2024,-37.7275797,144.8206678,"Green Gully Road, Keilor Downs VIC 3038, Australia"
+Calder Freeway,KEILOR NORTH,1 October 2024,-37.6810557,144.7788838,"Calder Freeway, Keilor North VIC 3036, Australia"
+Keilor Park Drive,KEILOR PARK,1 October 2024,-37.7182308,144.8547732,"Keilor Park Drive, Keilor Park VIC 3042, Australia"
+Earl Street,KEW,1 October 2024,-37.7956665,145.0370771,"Earl Street, Kew VIC 3101, Australia"
+Riverview Drive,KIALLA,1 October 2024,-36.4029994,145.3685834,"Riverview Drive, Kialla VIC 3631, Australia"
+Goulburn Valley Highway,KIALLA WEST,1 October 2024,-36.4503834,145.388822,"Goulburn Valley Highway, Kialla West VIC 3631, Australia"
+Kilmore - Lancefield Road,KILMORE,1 October 2024,-37.3014268,144.8676054,"Kilmore - Lancefield Road, Kilmore VIC 3764, Australia"
+Broadford-Kilmore Road,KILMORE,1 October 2024,-37.2424988,144.9877001,"Broadford-Kilmore Road, Kilmore VIC 3764, Australia"
+Northern Highway,KILMORE,1 October 2024,-37.3500764,144.961155,"Northern Highway, Kilmore VIC 3764, Australia"
+South Gippsland Highway,KOO WEE RUP,1 October 2024,-38.2112018,145.4318378,"South Gippsland Highway, Melbourne VIC 3981, Australia"
+Gisborne-Melton Road,KURUNJANG,1 October 2024,-37.6633388,144.5997831,"Gisborne - Melton Road, Kurunjang VIC 3337, Australia"
+Allan Street,KYABRAM,1 October 2024,-36.3135328,145.047217,"Allan Street, Kyabram VIC 3620, Australia"
+Burton Avenue,KYNETON,1 October 2024,-37.2431775,144.4416519,"Burton Avenue, Kyneton VIC 3444, Australia"
+Trentham Road,KYNETON,1 October 2024,-37.271931,144.4489969,"Trentham Road, Kyneton VIC 3444, Australia"
+Trentham Road,KYNETON,1 October 2024,-37.271931,144.4489969,"Trentham Road, Kyneton VIC 3444, Australia"
+Bass Highway,LANG LANG,1 October 2024,-38.2924962,145.545421,"Bass Highway, Melbourne VIC 3984, Australia"
+Bass Highway,LANG LANG,1 October 2024,-38.2924962,145.545421,"Bass Highway, Melbourne VIC 3984, Australia"
+Old Geelong Road,LAVERTON NORTH,1 October 2024,-37.8460515,144.7801923,"Old Geelong Road, Laverton North VIC 3026, Australia"
+High Street,LEARMONTH,1 October 2024,-37.4244874,143.7195942,"High Street, Learmonth VIC 3352, Australia"
+Bacchus Marsh Road,LITTLE RIVER,1 October 2024,-37.924738,144.3633079,"Bacchus Marsh Road, Little River VIC 3213, Australia"
+Dandenong Road,MALVERN,1 October 2024,-37.8692629,145.0337295,"Dandenong Road, Malvern VIC 3144, Australia"
+Calder Highway,MARONG,1 October 2024,-36.7086109,144.102714,"Calder Highway, Marong VIC 3515, Australia"
+Kings Way,MELBOURNE,1 October 2024,-37.8205672,144.957568,"Kings Way, Melbourne VIC 3000, Australia"
+Kings Way,MELBOURNE,1 October 2024,-37.8205672,144.957568,"Kings Way, Melbourne VIC 3000, Australia"
+Lakeside Drive,MELBOURNE,1 October 2024,-37.6862275,144.9489923,"Lakeside Drive, Broadmeadows VIC 3047, Australia"
+Airport Drive,MELBOURNE AIRPORT,1 October 2024,-37.705933,144.8680718,"Airport Drive, Melbourne Airport VIC 3045, Australia"
+Centenary Avenue,MELTON,1 October 2024,-37.6758673,144.5939365,"Centenary Avenue, Melbourne VIC 3337, Australia"
+Nepean Highway,MENTONE,1 October 2024,-37.982707,145.074905,"Nepean Highway, Mentone VIC 3194, Australia"
+Seventh Street E,MILDURA,1 October 2024,-34.1951748,142.1789619,"Seventh Street East, Mildura VIC 3500, Australia"
+Seventh Street,MILDURA,1 October 2024,-34.1765372,142.1560746,"Seventh Street, Mildura VIC 3500, Australia"
+Ninth Street,MILDURA,1 October 2024,-34.195462,142.1697442,"Ninth Street, Mildura VIC 3500, Australia"
+Eleventh Street,MILDURA,1 October 2024,-34.2053349,142.1762685,"Eleventh Street, Mildura VIC 3500, Australia"
+Eighth Street,MILDURA,1 October 2024,-34.1792188,142.1557298,"Eighth Street, Mildura VIC 3500, Australia"
+Fifteenth Street,MILDURA,1 October 2024,-34.2008731,142.1293417,"Fifteenth Street, Mildura VIC 3500, Australia"
+Ontario Avenue,MILDURA,1 October 2024,-34.175143,142.1544985,"Ontario Avenue, Mildura VIC 3500, Australia"
+Ranfurly Way,MILDURA,1 October 2024,-34.1754007,142.1156984,"Ranfurly Way, Mildura VIC 3500, Australia"
+Plenty Road,MILL PARK,1 October 2024,-37.661814,145.072976,"Plenty Road, Mill Park VIC 3082, Australia"
+Bungower Road,MOOROODUC,1 October 2024,-38.2330102,145.1244439,"Bungower Road, Moorooduc VIC 3933, Australia"
+Bungower Road,MOOROODUC,1 October 2024,-38.2330102,145.1244439,"Bungower Road, Moorooduc VIC 3933, Australia"
+Midland Highway,MOOROOPNA,1 October 2024,-36.4009545,145.3149159,"Midland Highway, Mooroopna VIC 3629, Australia"
+Mclennan Street,MOOROOPNA,1 October 2024,-36.3964869,145.3476278,"McLennan Street, Mooroopna VIC 3629, Australia"
+Moorooduc Highway,MOUNT ELIZA,1 October 2024,-38.2192722,145.1046261,"Moorooduc Highway, Mount Eliza VIC 3930, Australia"
+Monbulk Road,MOUNT EVELYN,1 October 2024,-37.7899848,145.3879516,"Monbulk Road, Mount Evelyn VIC 3796, Australia"
+Esplanade,MOUNT MARTHA,1 October 2024,-38.2889146,144.9895605,"Esplanade, Mount Martha VIC 3934, Australia"
+Wanda Street,MULGRAVE,1 October 2024,-37.9238819,145.1664546,"Wanda Street, Mulgrave VIC 3170, Australia"
+Myrtle Street,MYRTLEFORD,1 October 2024,-36.5570226,146.7181494,"Myrtle Street, Myrtleford VIC 3737, Australia"
+Myrtle Street,MYRTLEFORD,1 October 2024,-36.5570226,146.7181494,"Myrtle Street, Myrtleford VIC 3737, Australia"
+Princes Freeway,NAR NAR GOON,1 October 2024,-38.0698114,145.563688,"Princes Freeway, Melbourne VIC 3812, Australia"
+Goulburn Valley Highway,NATHALIA,1 October 2024,-36.0578072,145.207485,"Nathalia VIC 3638, Australia"
+Goulburn Valley Highway,NATHALIA,1 October 2024,-36.0578072,145.207485,"Nathalia VIC 3638, Australia"
+Goulburn Valley Highway,NATHALIA,1 October 2024,-36.0578072,145.207485,"Nathalia VIC 3638, Australia"
+Melbourne Road,NORTH GEELONG,1 October 2024,-38.1196545,144.3534116,"Melbourne Road, North Geelong VIC 3215, Australia"
+Bowser Road,NORTH WANGARATTA,1 October 2024,-36.3404857,146.3389946,"Bowser Road, Wangaratta VIC 3677, Australia"
+Goulburn Valley Highway,NUMURKAH,1 October 2024,-36.0883834,145.4318461,"Goulburn Valley Highway, Numurkah VIC 3636, Australia"
+Goulburn Valley Highway,NUMURKAH,1 October 2024,-36.0883834,145.4318461,"Goulburn Valley Highway, Numurkah VIC 3636, Australia"
+Goulburn Valley Highway,NUMURKAH,1 October 2024,-36.0883834,145.4318461,"Goulburn Valley Highway, Numurkah VIC 3636, Australia"
+Goulburn Valley Highway,NUMURKAH,1 October 2024,-36.0883834,145.4318461,"Goulburn Valley Highway, Numurkah VIC 3636, Australia"
+Princes Highway,OFFICER,1 October 2024,-38.0566248,145.3904044,"Princes Highway, Officer VIC 3809, Australia"
+Snow Road,OXLEY,1 October 2024,-36.4407812,146.3675283,"Snow Road, Oxley VIC 3678, Australia"
+Pakenham Road,PAKENHAM,1 October 2024,-38.0629649,145.4705757,"Pakenham Road, Pakenham VIC 3810, Australia"
+Princes Highway,PAKENHAM,1 October 2024,-38.0657812,145.513508,"Princes Highway, Pakenham VIC 3810, Australia"
+Princes Highway,PAKENHAM,1 October 2024,-38.0657812,145.513508,"Princes Highway, Pakenham VIC 3810, Australia"
+Princes Highway,PAKENHAM,1 October 2024,-38.0657812,145.513508,"Princes Highway, Pakenham VIC 3810, Australia"
+Princes Highway,PAKENHAM,1 October 2024,-38.0657812,145.513508,"Princes Highway, Pakenham VIC 3810, Australia"
+Mornington Peninsula Freeway,PATTERSON LAKES,1 October 2024,-38.0596184,145.1473284,"Mornington Peninsula Freeway, Patterson Lakes VIC 3197, Australia"
+Hamilton Street,PETERBOROUGH,1 October 2024,-32.972534,138.837053,"Peterborough (Peterborough), SA, Australia"
+Point Cook Road,POINT COOK,1 October 2024,-37.903602,144.7531182,"Point Cook Road, Point Cook VIC 3030, Australia"
+Point Cook Road,POINT COOK,1 October 2024,-37.903602,144.7531182,"Point Cook Road, Point Cook VIC 3030, Australia"
+Great Ocean Road,PORT CAMPBELL,1 October 2024,-38.6151796,142.9174826,"Great Ocean Road, Port Campbell VIC 3269, Australia"
+Great Ocean Road,PORT CAMPBELL,1 October 2024,-38.6151796,142.9174826,"Great Ocean Road, Port Campbell VIC 3269, Australia"
+Todd Road,PORT MELBOURNE,1 October 2024,-37.8265016,144.9116646,"Todd Road, Port Melbourne VIC 3207, Australia"
+Cook Street,PORT MELBOURNE,1 October 2024,-37.8319125,144.9135944,"Cook Street, Port Melbourne VIC 3207, Australia"
+Webb Dock Drive,PORT MELBOURNE,1 October 2024,-37.8338514,144.9112946,"Webb Dock Drive, Port Melbourne VIC 3207, Australia"
+Webb Dock Drive,PORT MELBOURNE,1 October 2024,-37.8338514,144.9112946,"Webb Dock Drive, Port Melbourne VIC 3207, Australia"
+Fitzroy Avenue,RED CLIFFS,1 October 2024,-34.3012965,142.1944311,"Fitzroy Avenue, Red Cliffs VIC 3496, Australia"
+Jacaranda Street,RED CLIFFS,1 October 2024,-34.3100515,142.186492,"Jacaranda Street, Red Cliffs VIC 3496, Australia"
+Point Nepean Road,ROSEBUD,1 October 2024,-38.3516146,144.9201211,"Point Nepean Road, Rosebud VIC 3939, Australia"
+Melbourne Road,RYE,1 October 2024,-38.3791289,144.8034342,"Melbourne Road, Rye VIC 3941, Australia"
+Melbourne Road,RYE,1 October 2024,-38.3791289,144.8034342,"Melbourne Road, Rye VIC 3941, Australia"
+Mccormicks Road,SANDHURST,1 October 2024,-38.0809481,145.2014444,"McCormicks Road, Sandhurst VIC 3977, Australia"
+Mccormicks Road,SANDHURST,1 October 2024,-38.0809481,145.2014444,"McCormicks Road, Sandhurst VIC 3977, Australia"
+Nepean Highway,SEAFORD,1 October 2024,-38.1214398,145.1248113,"Nepean Highway, Seaford VIC 3198, Australia"
+Frankston-Dandenong Road,SEAFORD,1 October 2024,-38.1243782,145.1400061,"Frankston-Dandenong Road, Seaford VIC 3198, Australia"
+Goulburn Valley Highway,SEYMOUR,1 October 2024,-37.0167702,145.1344473,"Goulburn Valley Highway, Seymour VIC 3660, Australia"
+Goulburn Valley Highway,SEYMOUR,1 October 2024,-37.0167702,145.1344473,"Goulburn Valley Highway, Seymour VIC 3660, Australia"
+Tallarook Street,SEYMOUR,1 October 2024,-37.0195655,145.1290928,"Tallarook Street, Seymour VIC 3660, Australia"
+Anzac Avenue,SEYMOUR,1 October 2024,-37.0354526,145.1542112,"Anzac Avenue, Seymour VIC 3660, Australia"
+Emily Street,SEYMOUR,1 October 2024,-37.0195103,145.1289441,"Emily Street, Seymour VIC 3660, Australia"
+High Street,SEYMOUR,1 October 2024,-37.0198941,145.1324127,"High Street, Seymour VIC 3660, Australia"
+Bungower Road,SOMERVILLE,1 October 2024,-38.238635,145.2160659,"Bungower Road, Somerville VIC 3912, Australia"
+Frankston-Flinders Road,SOMERVILLE,1 October 2024,-38.2314326,145.1824618,"Frankston-Flinders Road, Somerville VIC 3912, Australia"
+Hotham Road,SORRENTO,1 October 2024,-38.3364834,144.7415696,"Hotham Road, Sorrento VIC 3943, Australia"
+Albert Road,SOUTH MELBOURNE,1 October 2024,-37.8383623,144.9641842,"Albert Road, South Melbourne VIC 3205, Australia"
+Lakeside Drive,ST KILDA,1 October 2024,-37.8580062,144.9803779,"Lakeside Drive, St Kilda VIC 3182, Australia"
+Lakeside Drive,ST KILDA,1 October 2024,-37.8580062,144.9803779,"Lakeside Drive, St Kilda VIC 3182, Australia"
+Goulburn Valley Highway,STRATHMERTON,1 October 2024,-35.9255109,145.432489,"Goulburn Valley Highway, Shire of Moira VIC 3641, Australia"
+Goulburn Valley Highway,STRATHMERTON,1 October 2024,-35.9255109,145.432489,"Goulburn Valley Highway, Shire of Moira VIC 3641, Australia"
+Calder Park Drive,SYDENHAM,1 October 2024,-37.6937372,144.7570006,"Calder Park Drive, Sydenham VIC 3037, Australia"
+Sayers Road,TARNEIT,1 October 2024,-37.8441465,144.646577,"Sayers Road, Tarneit VIC 3029, Australia"
+Tarneit Road,TARNEIT,1 October 2024,-37.8172885,144.6754218,"Tarneit Road, Tarneit VIC 3029, Australia"
+Tarneit Road,TARNEIT,1 October 2024,-37.8172885,144.6754218,"Tarneit Road, Tarneit VIC 3029, Australia"
+Tarneit Road,TARNEIT,1 October 2024,-37.8172885,144.6754218,"Tarneit Road, Tarneit VIC 3029, Australia"
+Tarneit Road,TARNEIT,1 October 2024,-37.8172885,144.6754218,"Tarneit Road, Tarneit VIC 3029, Australia"
+Tarneit Road,TARNEIT,1 October 2024,-37.8172885,144.6754218,"Tarneit Road, Tarneit VIC 3029, Australia"
+Melton Highway,TAYLORS LAKES,1 October 2024,-37.6981288,144.7853033,"Melton Highway, Taylors Lakes VIC 3038, Australia"
+Sayers Road,TRUGANINA,1 October 2024,-37.8519383,144.7219442,"Sayers Road, Truganina VIC 3029, Australia"
+Western Freeway,TRUGANINA,1 October 2024,-37.7452502,144.69979,"Western Freeway, Truganina VIC 3336, Australia"
+Melrose Drive,TULLAMARINE,1 October 2024,-37.6932009,144.8745805,"Melrose Drive, Tullamarine VIC 3045, Australia"
+Sharps Road,TULLAMARINE,1 October 2024,-37.7076404,144.8749767,"Sharps Road, Tullamarine VIC 3045, Australia"
+Mornington-Tyabb Road,TYABB,1 October 2024,-38.2611822,145.1885147,"Mornington - Tyabb Road, Tyabb VIC 3913, Australia"
+Frankston-Flinders Road,TYABB,1 October 2024,-38.2731435,145.1897172,"Frankston-Flinders Road, Tyabb VIC 3915, Australia"
+Wangaratta-Yarrawonga Road,WALDARA,1 October 2024,-36.3361129,146.2959943,"Wangaratta - Yarrawonga Road, Rural City of Wangaratta VIC 3678, Australia"
+Watson Street,WALLAN,1 October 2024,-37.4154916,144.9713553,"Watson Street, Wallan VIC 3756, Australia"
+Watson Street,WALLAN,1 October 2024,-37.4154916,144.9713553,"Watson Street, Wallan VIC 3756, Australia"
+Northern Highway,WALLAN,1 October 2024,-37.4343309,144.9776974,"Northern Highway, Beveridge VIC 3756, Australia"
+Rowan Street,WANGARATTA,1 October 2024,-36.3510567,146.3140555,"Rowan Street, Wangaratta VIC 3677, Australia"
+Wangaratta-Whitfield Road,WANGARATTA,1 October 2024,-36.3885302,146.3322505,"Wangaratta - Whitfield Road, Wangaratta VIC 3677, Australia"
+Tone Road,WANGARATTA,1 October 2024,-36.3683584,146.2943216,"Tone Road, Wangaratta VIC 3677, Australia"
+Wangaratta-Whitfield Road,WANGARATTA,1 October 2024,-36.3885302,146.3322505,"Wangaratta - Whitfield Road, Wangaratta VIC 3677, Australia"
+Burwood Highway,WANTIRNA,1 October 2024,-37.863607,145.219854,"Burwood Highway Trail, Wantirna VIC 3152, Australia"
+Burwood Highway,WANTIRNA SOUTH,1 October 2024,-37.870255,145.23843,"Burwood Highway, Wantirna South VIC 3152, Australia"
+Tarneit Road,WERRIBEE,1 October 2024,-37.895565,144.664473,"Tarneit Road, Werribee VIC 3030, Australia"
+Princes Highway,WERRIBEE,1 October 2024,-37.899617,144.667758,"Princes Highway, Werribee VIC 3030, Australia"
+Princes Highway,WERRIBEE,1 October 2024,-37.899617,144.667758,"Princes Highway, Werribee VIC 3030, Australia"
+Princes Highway,WERRIBEE,1 October 2024,-37.899617,144.667758,"Princes Highway, Werribee VIC 3030, Australia"
+Wellington Road,WHEELERS HILL,1 October 2024,-37.921124,145.180304,"Wellington Road, Wheelers Hill VIC 3170, Australia"
+Ferntree Gully Road,WHEELERS HILL,1 October 2024,-37.905853,145.182612,"Ferntree Gully Road, Wheelers Hill VIC 3150, Australia"
+Beechworth Road,WODONGA,1 October 2024,-36.1554215,146.8808162,"Beechworth Road, Wodonga VIC 3690, Australia"
+Bandiana Link,WODONGA,1 October 2024,-36.1103367,146.8937505,"Bandiana Link Road, Wodonga VIC 3690, Australia"
+Bandiana Link,WODONGA,1 October 2024,-36.1103367,146.8937505,"Bandiana Link Road, Wodonga VIC 3690, Australia"
+Beechworth Road,WODONGA,1 October 2024,-36.1554215,146.8808162,"Beechworth Road, Wodonga VIC 3690, Australia"
+Hume Freeway,WODONGA,1 October 2024,-36.1106065,146.8934013,"Hume Freeway, Wodonga VIC 3690, Australia"
+Craigieburn Road,WOLLERT,1 October 2024,-37.605789,145.005593,"Craigieburn Road, Wollert VIC 3750, Australia"
+Goulburn Valley Highway,WUNGHNU,1 October 2024,-36.146084,145.431776,"Goulburn Valley Highway, Wunghnu VIC 3635, Australia"
+Goulburn Valley Highway,WUNGHNU,1 October 2024,-36.146084,145.431776,"Goulburn Valley Highway, Wunghnu VIC 3635, Australia"
+Goulburn Valley Highway,WUNGHNU,1 October 2024,-36.146084,145.431776,"Goulburn Valley Highway, Wunghnu VIC 3635, Australia"
+Goulburn Valley Highway,WUNGHNU,1 October 2024,-36.146084,145.431776,"Goulburn Valley Highway, Wunghnu VIC 3635, Australia"
+Goulburn Valley Highway,YARRAWONGA,1 October 2024,-36.0141692,146.0063494,"Yarrawonga VIC 3730, Australia"
+Goulburn Valley Highway,YARRAWONGA,1 October 2024,-36.0141692,146.0063494,"Yarrawonga VIC 3730, Australia"
+Goulburn Valley Highway,YARRAWONGA,1 October 2024,-36.0141692,146.0063494,"Yarrawonga VIC 3730, Australia"
+Goulburn Valley Highway,YARRAWONGA,1 October 2024,-36.0141692,146.0063494,"Yarrawonga VIC 3730, Australia"
+Goulburn Valley Highway,YIELIMA,1 October 2024,-35.9256714,145.4318605,"Goulburn Valley Highway, Shire of Moira VIC 3641, Australia"
+,,,,,
+,,,,,
+ Reason Key ,,,,,
+A - Documented history of collisions or road trauma within the previous 3 years ,,,,,
+"B - Validated complaints of drivers using portable devices illegally, or with the improper wearing of seatbelts.",,,,,
+C - Identified by Police as deemed necessary. ,,,,,
+D - the road environment and physical characteristic is likely to encourage a higher frequency of driver distraction or improper wearing of seatbelts behaviour,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Humffray Street N,Brown Hill,,-37.551625,143.9027762,"Humffray Street North, Brown Hill VIC 3350, Australia"
