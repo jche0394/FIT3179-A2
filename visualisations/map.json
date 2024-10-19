@@ -1,50 +1,90 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 450,
-    "title": "Telecom Coverage in Australia",
-    "projection": {
-      "type": "mercator"
-    },
-    "layer": [
-      {
-        "data": {
-          "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/SA4_2016_AUST.json",
-          "format": {
-            "type": "topojson",
-            "feature": "SA4_2016_AUST"
-          }
-        },
-        "mark": {
-          "type": "geoshape",
-          "fill": "lightgray",
-          "stroke": "white"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Mobile Speed Camera Locations in Victoria",
+  "width": "container",
+  "height": 500,
+  "projection": {
+    "type": "conicEqualArea",
+    "parallels": [-36, -38],
+    "rotate": [-145, 0, 0],
+    "clip": true
+  },
+  "selection": {
+    "grid": {
+      "type": "interval",
+      "bind": "scales"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape",
+        "fill": "gainsboro",
+        "stroke": "white"
+      },
+      "data": {
+        "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/melbtop.json",
+        "format": {
+          "type": "topojson",
+          "feature": "vic_localities"
         }
       },
-      {
-        "data": {
-          "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/mobile-infrastructure-report-2023-web-chart-data.csv"
-        },
-        "transform": [
-        ],
-        "mark": {
-          "type": "circle",
-          "tooltip": {"content": "data"},
-          "size": 30
-        },
-        "encoding": {
-          "longitude": {"field": "Longitude", "type": "quantitative"},
-          "latitude": {"field": "Latitude", "type": "quantitative"},
-          "color": {
-            "field": "MNO",
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "properties.LOC_NAME",
             "type": "nominal",
-            "title": "Company",
-            "scale": {
-              "domain": ["Optus", "Telstra", "TPG"],
-              "range": ["blue", "green", "red"]
-            }
+            "title": "Local Government Area"
           }
-        }
+        ]
       }
-    ]
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "color": "blue",
+        "opacity": 0.7
+      },
+      "data": {
+        "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/geodata.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.Latitude >= -38.5 && datum.Latitude <= -37.48 && datum.Longitude >= 144.1 && datum.Longitude <= 145.7"
+        }
+      ],
+      "encoding": {
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"},
+        "size": {"value": 10},
+        "tooltip": [
+          {"field": "Road", "type": "nominal", "title": "Road"},
+          {"field": "Suburb", "type": "nominal", "title": "Suburb"},
+          {"field": "Address", "type": "nominal", "title": "Formatted Address"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "legend": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "header": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "title": {
+      "font": "Oxygen",
+      "fontSize": 16,
+      "fontWeight": 600
+    }
   }
+}
