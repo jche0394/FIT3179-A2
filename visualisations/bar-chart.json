@@ -3,9 +3,9 @@
   "width": "container",
   "title": {
     "text":"Distribution of Reasons for Camera Placement",
-    "font": "Open Sans",       
+    "subtitle": "Analyzing the factors influencing camera placement for traffic enforcement across various regions",
     "fontSize": 18,             
-    "fontWeight": "bold",       
+    "anchor": "start",
     "color": "#333"             
   },
   "data": {

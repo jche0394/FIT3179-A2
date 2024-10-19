@@ -3,11 +3,10 @@
     "width": "container",
     "title": {
     "text": "Total Infringements Across Major Victorian Roads Over Time",
-    "font": "Open Sans",       
-    "fontSize": 18,             
-    "fontWeight": "bold",       
-    "anchor": "start",          
-    "color": "#333"             
+    "subtitle": "A temporal analysis of traffic infringements on key roads in Victoria",
+    "fontSize": 18,        
+    "anchor": "start",
+    "color": "#333"       
   },
     "data": {
       "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/combined_total_infringements.csv"

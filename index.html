@@ -103,6 +103,17 @@
         </div>
 
         <div class="pure-g">
+            <div class="pure-u-1-1" style="display: flex; justify-content: center;">
+                <div id="areaChartVis" class="vis-container" style="width: 100%; height: auto;"></div>
+            </div>
+            <div class="pure-u-1-1" >
+                <p>
+                    The data shows that drivers tend to comply with speed limits when fixed cameras are present, as these cameras are permanent and known to them, leading to consistently high compliance rates. In contrast, compliance is lower with mobile cameras, likely because their locations are temporary and less predictable, causing drivers to be less cautious in areas where they do not expect enforcement.
+                </p>
+            </div>
+        </div>
+
+        <div class="pure-g">
             <div class="pure-u-1-1 small-font">
                 <p>This visualisation was created by Joshua Chen using data from Victorian government sources.</p>
             </div>
@@ -119,6 +130,9 @@
 
         var barChartSpec = "./visualisations/bar-chart.json";  
         vegaEmbed('#barChartVis', barChartSpec, { "actions": false });
+
+        var areaChartSpec = "./visualisations/area-chart.json";  
+        vegaEmbed('#areaChartVis', areaChartSpec, { "actions": false });
     </script>
 </body>
 
