@@ -1,0 +1,10 @@
+Offence,Fixed Camera Systems,Mobile Camera System,Total
+Exceed speed by less than 10km/h,451160,457287,908447
+Exceed speed by 10k but less than 15k,104079,77936,182015
+Exceed speed by 15k but less than 25k,35847,28217,64064
+Exceed speed by 25k but less than 30k,3899,3008,7007
+Exceed speed by 30k but less than 35k,1874,1252,3126
+Exceed speed by 35k but less than 40k,1016,714,1730
+Exceed speed by 40k but less than 45k,588,356,944
+Exceed speed by 45km/h or more,673,293,966
+Exceed speed by 20k to 24k in 110k zone,297,117,414

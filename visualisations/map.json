@@ -12,7 +12,7 @@
     {
       "mark": {"type": "geoshape", "fill": "gainsboro", "stroke": "white"},
       "data": {
-        "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/melbtop.json",
+        "url": "./data/melbtop.json",
         "format": {"type": "topojson", "feature": "vic_localities"}
       },
       "encoding": {
@@ -28,7 +28,7 @@
     {
       "mark": {"type": "circle", "color": "blue", "opacity": 0.7},
       "data": {
-        "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/geodata.csv"
+        "url": "./data/geodata.csv"
       },
       "transform": [
         {

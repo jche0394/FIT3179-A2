@@ -78,25 +78,31 @@
                 </div>
         </div>
 
-        <!-- Map of Victoria with Mobile Speed Camera Locations -->
-        <div class="pure-g">
-            <div class="pure-u-1-1" style="display: flex; justify-content: center;">
-                <div id="mapVis" class="vis-container"></div>
+<!-- Map of Victoria with Mobile Speed Camera Locations -->
+<!-- Map of Victoria with Mobile Speed Camera Locations -->
+<div class="pure-g" style="padding: 40px 0;">
+    <div class="pure-u-1-1" style="display: flex; justify-content: center;">
+        <div id="mapVis" class="vis-container" style="width: 100%; height: auto;"></div>
+    </div>
+    <div class="pure-u-1-1" style="margin-top: 20px;">
+        <p>
+            Mobile speed cameras are heavily <strong>concentrated in Metropolitan Melbourne</strong>, particularly in suburban and inner-city areas. <strong>Regional Victoria</strong> shows a more <strong>dispersed</strong> pattern with fewer cameras. In some eastern regions, high camera densities are found next to areas with <strong>significantly fewer</strong> cameras.
+        </p>
+    </div>
+</div>
+
+        <div class="content-container" style="display: flex; justify-content: space-between; align-items: center; padding: 40px 0;">
+            <div class="text-section" style="width: 45%;">
+                <h2 style="font-size: 28px; font-weight: bold; margin-bottom: 15px;">Number of Infringements on Highways</h2>
+                <p>
+                    This chart illustrates the total number of traffic infringements issued across major Victorian highways over time. It provides insights into enforcement patterns and compliance trends on high-speed roads. Compare the number of infringements across highways to explore the roads with the highest levels of enforcement.
+                </p>
+            </div>
+            <div class="chart-section" style="width: 50%; text-align: center;">
+                <div id="lineChartVis" class="vis-container" style="width: 100%; height: auto;"></div>
             </div>
         </div>
 
-        <!-- Stacked Line Chart: Number of Infringements on Highways -->
-        <div class="pure-g">
-            <div class="pure-u-1-2">
-                <div class="description description-right">
-                    <h2>Number of Infringements on Highways</h2>
-                    <p>Here we see the number of traffic infringements issued on highways over time, providing insights into enforcement patterns and compliance trends on high-speed roads.</p>
-                </div>
-            </div>
-            <div class="pure-u-1-2">
-                <div id="lineChartVis" class="vis-container"></div>
-            </div>
-        </div>
 
         <!-- Stacked Bar Chart: Reasons for Mobile Speed Cameras -->
         <div class="pure-g">
