@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/driver-compliance.csv",
+      "format": {"type": "csv"}
+    },
+    "mark": {
+      "type": "area",
+      "color": "#1f77b4",
+      "opacity": 0.8
+    },
+    "encoding": {
+      "x": {
+        "field": "Quarter",
+        "type": "ordinal",
+        "axis": {
+          "labelAngle": -45,
+          "labelFontSize": 12,
+          "labelPadding": 10
+        }
+      },
+      "y": {
+        "field": "Compliance Rate",
+        "type": "quantitative",
+        "scale": {
+          "domain": [80, 100],
+          "clamp": true
+        },
+        "axis": {
+          "title": "Compliance Rate (%)",
+          "titleFontSize": 14,
+          "labelFontSize": 12
+        }
+      },
+      "tooltip": [
+        {"field": "Quarter", "type": "ordinal"},
+        {"field": "Compliance Rate", "type": "quantitative"}
+      ]
+    }
+  }
