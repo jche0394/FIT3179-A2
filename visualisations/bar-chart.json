@@ -1,48 +1,61 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Reason Code Counts - Stacked Bar Chart with Rounded Corners",
-    "data": {
-      "values": [
-        {"Reason Code": "A", "Count": 901, "Dataset": "Mobile Cam Locations", "Description": "Documented history of collisions or road trauma within the previous 3 years"},
-        {"Reason Code": "B", "Count": 1222, "Dataset": "Mobile Cam Locations", "Description": "Validated complaints of drivers using portable devices illegally, or with the improper wearing of seatbelts."},
-        {"Reason Code": "C", "Count": 2048, "Dataset": "Mobile Cam Locations", "Description": "Identified by Police as deemed necessary."},
-        {"Reason Code": "D", "Count": 734, "Dataset": "Mobile Cam Locations", "Description": "The road environment and physical characteristic is likely to encourage a higher frequency of driver distraction or improper wearing of seatbelts behaviour"},
-        {"Reason Code": "A", "Count": 236, "Dataset": "Phone Seatbelt Locations", "Description": "Documented history of collisions or road trauma within the previous 3 years"},
-        {"Reason Code": "B", "Count": 10, "Dataset": "Phone Seatbelt Locations", "Description": "Validated complaints of drivers using portable devices illegally, or with the improper wearing of seatbelts."},
-        {"Reason Code": "C", "Count": 68, "Dataset": "Phone Seatbelt Locations", "Description": "Identified by Police as deemed necessary."}
-      ]
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "title": {
+    "text":"Distribution of Reasons for Camera Placement",
+    "font": "Open Sans",       
+    "fontSize": 18,             
+    "fontWeight": "bold",       
+    "color": "#333"             
+  },
+  "data": {
+    "values": [
+      {"Reason Code": "A", "Count": 901, "Dataset": "Mobile Speed Camera", "Description": "Documented history of collisions or road trauma within the previous 3 years"},
+      {"Reason Code": "B", "Count": 1222, "Dataset": "Mobile Speed Camera", "Description": "Validated complaints of drivers using portable devices illegally, or with the improper wearing of seatbelts."},
+      {"Reason Code": "C", "Count": 2048, "Dataset": "Mobile Speed Camera", "Description": "Identified by Police as deemed necessary."},
+      {"Reason Code": "D", "Count": 734, "Dataset": "Mobile Speed Camera", "Description": "The road environment and physical characteristic is likely to encourage a higher frequency of driver distraction or improper wearing of seatbelts behaviour"},
+      {"Reason Code": "A", "Count": 236, "Dataset": "Phone Seatbelt Camera", "Description": "Documented history of collisions or road trauma within the previous 3 years"},
+      {"Reason Code": "B", "Count": 10, "Dataset": "Phone Seatbelt Camera", "Description": "Validated complaints of drivers using portable devices illegally, or with the improper wearing of seatbelts."},
+      {"Reason Code": "C", "Count": 68, "Dataset": "Phone Seatbelt Camera", "Description": "Identified by Police as deemed necessary."}
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusTopLeft": 5,
+    "cornerRadiusTopRight": 5
+  },
+  "encoding": {
+    "x": {
+      "field": "Reason Code",
+      "type": "nominal",
+      "title": "Reason Code",
+      "axis": {"labelAngle": 0}  
     },
-    "mark": {
-      "type": "bar",
-      "cornerRadiusTopLeft": 5,
-      "cornerRadiusTopRight": 5
+    "y": {
+      "field": "Count",
+      "type": "quantitative",
+      "title": "Total Count",
+      "axis": {
+        "labelExpr": "datum.value == 0 ? '0' : format(datum.value, ',')",
+        "titleFontSize": 14
+      }
     },
-    "encoding": {
-      "x": {
-        "field": "Reason Code",
-        "type": "nominal",
-        "title": "Reason Code"
-      },
-      "y": {
-        "field": "Count",
-        "type": "quantitative",
-        "title": "Total Count",
-        "axis": {
-          "labelExpr": "datum.value == 0 ? '0' : format(datum.value, ',')",
-          "titleFontSize": 14
-        },
-        "stack": "zero"
-      },
-      "color": {
-        "field": "Dataset",
-        "type": "nominal",
-        "title": "Dataset"
-      },
-      "tooltip": [
-        {"field": "Reason Code", "type": "nominal", "title": "Reason Code"},
-        {"field": "Dataset", "type": "nominal", "title": "Dataset"},
-        {"field": "Count", "type": "quantitative", "title": "Count"},
-        {"field": "Description", "type": "nominal", "title": "Reason Description"}
-      ]
-    }
+    "xOffset": {
+      "field": "Dataset"
+    },
+    "color": {
+      "field": "Dataset",
+      "type": "nominal",
+      "title": "Dataset",
+      "scale": {"scheme": "category10"},
+      "legend": {
+        "orient": "bottom"
+      }
+    },
+    "tooltip": [
+      {"field": "Dataset", "type": "nominal", "title": "Dataset"},
+      {"field": "Count", "type": "quantitative", "title": "Count"},
+      {"field": "Description", "type": "nominal", "title": "Reason Description"}
+    ]
   }
+}

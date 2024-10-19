@@ -1,6 +1,12 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Mobile Speed Camera Locations in Victoria",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": {
+    "text": "Mobile Speed Camera Locations in Victoria",
+    "font": "Open Sans",       
+    "fontSize": 18,             
+    "fontWeight": "bold",       
+    "color": "#333"             
+  },
   "width": "container",
   "height": 500,
   "projection": {
@@ -8,27 +14,79 @@
     "parallels": [-36, -38],
     "rotate": [-145, 0, 0]
   },
+  "data": {
+    "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/melbtop.json",
+    "format": {
+      "type": "topojson",
+      "feature": "vic_localities"
+    }
+  },
+  "encoding": {
+    "tooltip": [
+      {
+        "field": "properties.LOC_NAME",
+        "type": "nominal",
+        "title": "Local Government Area"
+      },
+      {
+        "field": "Camera Count",
+        "type": "quantitative",
+        "title": "Number of Cameras"
+      }
+    ]
+  },
   "layer": [
     {
-      "mark": {"type": "geoshape", "fill": "gainsboro", "stroke": "white"},
-      "data": {
-        "url": "./data/melbtop.json",
-        "format": {"type": "topojson", "feature": "vic_localities"}
-      },
-      "encoding": {
-        "tooltip": [
-          {
-            "field": "properties.LOC_NAME",
-            "type": "nominal",
-            "title": "Local Government Area"
-          }
-        ]
+      "mark": {
+        "type": "geoshape",
+        "fill": "gainsboro",
+        "stroke": "white"
       }
     },
     {
-      "mark": {"type": "circle", "color": "blue", "opacity": 0.7},
+      "transform": [
+        {
+          "lookup": "properties.LOC_NAME",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/surbcounts.csv"
+            },
+            "key": "Suburb",
+            "fields": ["Camera Count"]
+          }
+        },
+        {
+          "calculate": "isValid(datum['Camera Count']) ? datum['Camera Count'] : 0",
+          "as": "Camera Count"
+        }
+      ],
+      "mark": {
+        "type": "geoshape"
+      },
+      "encoding": {
+        "color": {
+          "field": "Camera Count",
+          "type": "quantitative",
+          "title": "Speed Camera Count",
+          "scale": {
+            "type": "threshold",
+            "domain": [0, 1, 3, 5, 7, 10],  
+            "range": ["#f0f0f0", "#d0f0e0", "#a0d6b6", "#70bc8c", "#40a263", "#108849"]  
+          },
+          "legend": {
+            "orient": "right"
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "color": "#ff000d",
+        "opacity": 1
+      },
       "data": {
-        "url": "./data/geodata.csv"
+        "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/geodata.csv"
       },
       "transform": [
         {
@@ -48,9 +106,25 @@
     }
   ],
   "config": {
-    "view": {"stroke": null},
-    "axis": {"labelFont": "Oxygen", "titleFont": "Oxygen"},
-    "legend": {"labelFont": "Oxygen", "titleFont": "Oxygen"},
-    "header": {"labelFont": "Oxygen", "titleFont": "Oxygen"}
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "legend": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "header": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "title": {
+      "font": "Oxygen",
+      "fontSize": 16,
+      "fontWeight": 600
+    }
   }
 }

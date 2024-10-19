@@ -22,7 +22,7 @@
             background-color: #f5f7fa;
             padding-top: 50px;
         }
-
+    
         h1 {
             text-align: center;
             font-size: 2.7em;
@@ -30,40 +30,39 @@
             color: #333;
             margin-bottom: 20px;
         }
-
+    
         .page {
-            padding: 20px;
+            padding: 30px;
             margin: 0 auto;
             max-width: 1100px;
             background-color: white;
             border-radius: 10px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
-
+    
         h2 {
             color: #333;
         }
-
+    
         p {
             color: #555;
         }
-
+    
         .vis-container {
-            margin: 20px 0;
+            margin: 10px;
         }
-
+    
         .description {
             padding: 20px;
         }
-
-        .description-right {
-            padding-right: 40px;
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
         }
-
-        .small-font {
-            font-size: 0.9em;
-            color: #777;
-            text-align: center;
+    
+        .flex-container > div {
+            flex: 1;
+            min-width: 300px;
         }
     </style>
 </head>
@@ -72,52 +71,37 @@
 
     <div class="page">
         <div class="pure-g">
-            <div class="pure-u-1-1">
+            <div class="pure-u-1-1" style="margin-top: 10px;">
                 <h1>Victorian Road Safety Camera Trends & Analysis</h1>
                 <p>As road safety remains a critical issue in Victoria, the use of <strong>road safety cameras</strong> has become one of the most effective measures for reducing accidents and enforcing traffic laws. This analysis explores <strong>key trends</strong> in the operation and impact of road safety cameras across <strong>Victoria</strong> covering data on camera locations, types of offences detected, and trends in fines issued. By understanding these trends, we can gain insights into the effectiveness of road safety cameras and their contribution to improving road safety in the state.</p>     
-                </div>
+            </div>
         </div>
 
-<!-- Map of Victoria with Mobile Speed Camera Locations -->
-<!-- Map of Victoria with Mobile Speed Camera Locations -->
-<div class="pure-g" style="padding: 40px 0;">
-    <div class="pure-u-1-1" style="display: flex; justify-content: center;">
-        <div id="mapVis" class="vis-container" style="width: 100%; height: auto;"></div>
-    </div>
-    <div class="pure-u-1-1" style="margin-top: 20px;">
-        <p>
-            Mobile speed cameras are heavily <strong>concentrated in Metropolitan Melbourne</strong>, particularly in suburban and inner-city areas. <strong>Regional Victoria</strong> shows a more <strong>dispersed</strong> pattern with fewer cameras. In south eastern regions, high camera densities are found next to areas with <strong>significantly fewer</strong> cameras.
-        </p>
-    </div>
-</div>
-
-        <div class="content-container" style="display: flex; justify-content: space-between; align-items: center; padding: 40px 0;">
-            <div class="text-section" style="width: 45%;">
-                <h2 style="font-size: 28px; font-weight: bold; margin-bottom: 15px;">Number of Infringements on Highways</h2>
+        <div class="pure-g">
+            <div class="pure-u-1-1" style="display: flex; justify-content: center;">
+                <div id="mapVis" class="vis-container" style="width: 100%; height: auto;"></div>
+            </div>
+            <div class="pure-u-1-1" >
                 <p>
-                    This chart illustrates the total number of traffic infringements issued across major Victorian highways over time. It provides insights into enforcement patterns and compliance trends on high-speed roads. Compare the number of infringements across highways to explore the roads with the highest levels of enforcement.
+                    The mobile speed camera data reveals a clear pattern of enforcement, with the <strong>highest concentration</strong> of mobile speed cameras located in metropolitan Melbourne, particularly in the inner suburbs and <strong>high-traffic areas</strong>. This dense clustering suggests a focus on monitoring regions with <strong>greater traffic volumes</strong> and potential safety risks. In contrast, regional Victoria shows a much more dispersed camera distribution, with <strong>significantly fewer</strong> cameras placed in rural and remote areas, reflecting <strong>lower population densities</strong> and traffic. There are also notable clusters of cameras along <strong>major highways</strong> leading out of Melbourne, highlighting the importance of these transit routes for traffic enforcement. 
                 </p>
             </div>
-            <div class="chart-section" style="width: 50%; text-align: center;">
-                <div id="lineChartVis" class="vis-container" style="width: 100%; height: auto;"></div>
+        </div>
+        
+        <div class="pure-g flex-container" style="gap: 0px;">
+            <div class="pure-u-1-2" style="padding-right: 10px;"> 
+                <div id="lineChartVis" class="vis-container" style="width: 100%; height: 400px;"></div>
+                <h3 style="margin-top: 0;">Key Findings: Line Chart</h3>
+                <p>This section will contain the important insights from the line chart, such as patterns in road infringements over time, which roads saw the highest and lowest infringements, and any significant trends or outliers.</p>
+            </div>
+
+            <div class="pure-u-1-2" style="padding-left: 10px;"> 
+                <div id="barChartVis" class="vis-container" style="width: 100%; height: 400px;"></div>
+                <h3 style="margin-top: 0;">Key Findings: Bar Chart</h3>
+                <p>This section will include the key takeaways from the bar chart, such as which reasons are most frequent for mobile camera placement, differences between mobile speed and phone seatbelt cameras, and other relevant observations.</p>
             </div>
         </div>
 
-
-        <!-- Stacked Bar Chart: Reasons for Mobile Speed Cameras -->
-        <div class="pure-g">
-            <div class="pure-u-1-2">
-                <div class="description description-right">
-                    <h2>Reasons for Mobile Speed Cameras</h2>
-                    <p>The following chart shows the various reasons for placing mobile speed cameras, highlighting high-risk road segments where driver behavior may lead to an increased need for enforcement.</p>
-                </div>
-            </div>
-            <div class="pure-u-1-2">
-                <div id="barChartVis" class="vis-container"></div>
-            </div>
-        </div>
-
-        <!-- Data source attribution -->
         <div class="pure-g">
             <div class="pure-u-1-1 small-font">
                 <p>This visualisation was created by Joshua Chen using data from Victorian government sources.</p>
@@ -130,12 +114,10 @@
         var mapSpec = "./visualisations/map.json";
         vegaEmbed('#mapVis', mapSpec, { "actions": false });
 
-        // Load stacked line chart visualization (number of infringements on highways)
-        var lineChartSpec = "./visualisations/linechart.json";  // Add Vega-Lite spec for stacked line chart here
+        var lineChartSpec = "./visualisations/linechart.json"; 
         vegaEmbed('#lineChartVis', lineChartSpec, { "actions": false });
 
-        // Load stacked bar chart visualization (reasons for mobile speed cameras)
-        var barChartSpec = "./visualisations/bar-chart.json";  // Add Vega-Lite spec for stacked bar chart here
+        var barChartSpec = "./visualisations/bar-chart.json";  
         vegaEmbed('#barChartVis', barChartSpec, { "actions": false });
     </script>
 </body>

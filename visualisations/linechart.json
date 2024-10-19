@@ -1,72 +1,175 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "title": {
+    "text": "Total Infringements Across Major Victorian Roads Over Time",
+    "font": "Open Sans",       
+    "fontSize": 18,             
+    "fontWeight": "bold",       
+    "anchor": "start",          
+    "color": "#333"             
+  },
     "data": {
-    "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/combined_total_infringements.csv"
+      "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/combined_total_infringements.csv"
     },
-    "width": 300,
-    "height": 200,
+    "params": [
+      {
+        "name": "RoadFilter",
+        "value": "All",  
+        "bind": {
+          "input": "select",
+          "options": [
+            "All", 
+            "CityLink", 
+            "EastLink", 
+            "Geelong Road", 
+            "Hume Freeway", 
+            "Monash", 
+            "Peninsula Link", 
+            "Western Ring Road"
+          ],
+          "labels": [
+            "All Roads", 
+            "CityLink", 
+            "EastLink", 
+            "Geelong Road", 
+            "Hume Freeway", 
+            "Monash", 
+            "Peninsula Link", 
+            "Western Ring Road"
+          ],
+          "name": "Select Road: "
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "RoadFilter == 'All' || datum.CityLink == RoadFilter"
+      }
+    ],
     "encoding": {
-    "x": {
+      "x": {
         "field": "Year",
         "type": "ordinal",
-        "axis": {"title": "Year"}
-    }
+        "axis": {
+          "title": "Year"
+        }
+      }
     },
     "layer": [
-    {
+      {
         "encoding": {
-        "color": {
+          "color": {
             "field": "CityLink",
             "type": "nominal",
-            "legend": {"title": "Road"}
-        },
-        "y": {
+            "legend": {
+              "title": "Road"
+            }
+          },
+          "y": {
             "field": "Total Infringements",
             "type": "quantitative",
-            "axis": {"title": "Total Infringements"}
-        }
+            "axis": {
+              "title": "Total Infringements"
+            }
+          }
         },
         "layer": [
-        {"mark": "line"},
-        {
-            "transform": [{"filter": {"param": "hover", "empty": false}}],
+          {
+            "mark": "line"
+          },
+          {
+            "transform": [
+              {
+                "filter": {
+                  "param": "hover",
+                  "empty": false
+                }
+              }
+            ],
             "mark": "point"
-        }
+          }
         ]
-    },
-    {
+      },
+      {
         "transform": [
-        {"pivot": "CityLink", "value": "Total Infringements", "groupby": ["Year"]}
+          {
+            "pivot": "CityLink",
+            "value": "Total Infringements",
+            "groupby": ["Year"]
+          }
         ],
         "mark": "rule",
         "encoding": {
-        "opacity": {
-            "condition": {"value": 0.3, "param": "hover", "empty": false},
+          "opacity": {
+            "condition": {
+              "value": 0.3,
+              "param": "hover",
+              "empty": false
+            },
             "value": 0
-        },
-        "tooltip": [
-            {"field": "Year", "type": "ordinal"},
-            {"field": "CityLink", "type": "quantitative", "format": ","},
-            {"field": "EastLink", "type": "quantitative", "format": ","},
-            {"field": "Geelong Road", "type": "quantitative", "format": ","},
-            {"field": "Hume Freeway", "type": "quantitative", "format": ","},
-            {"field": "Monash", "type": "quantitative", "format": ","},
-            {"field": "Peninsula Link", "type": "quantitative", "format": ","},
-            {"field": "Western Ring Road", "type": "quantitative", "format": ","}
-        ]
+          },
+          "tooltip": [
+            {
+              "field": "Year",
+              "type": "ordinal"
+            },
+            {
+              "field": "CityLink",
+              "type": "quantitative",
+              "format": ",",
+              "title": "CityLink"
+            },
+            {
+              "field": "EastLink",
+              "type": "quantitative",
+              "format": ",",
+              "title": "EastLink"
+            },
+            {
+              "field": "Geelong Road",
+              "type": "quantitative",
+              "format": ",",
+              "title": "Geelong Road"
+            },
+            {
+              "field": "Hume Freeway",
+              "type": "quantitative",
+              "format": ",",
+              "title": "Hume Freeway"
+            },
+            {
+              "field": "Monash",
+              "type": "quantitative",
+              "format": ",",
+              "title": "Monash"
+            },
+            {
+              "field": "Peninsula Link",
+              "type": "quantitative",
+              "format": ",",
+              "title": "Peninsula Link"
+            },
+            {
+              "field": "Western Ring Road",
+              "type": "quantitative",
+              "format": ",",
+              "title": "Western Ring Road"
+            }
+          ]
         },
         "params": [
-        {
+          {
             "name": "hover",
             "select": {
-            "type": "point",
-            "fields": ["Year"],
-            "nearest": true,
-            "on": "pointerover",
-            "clear": "pointerout"
+              "type": "point",
+              "fields": ["Year"],
+              "nearest": true,
+              "on": "pointerover",
+              "clear": "pointerout"
             }
-        }
+          }
         ]
-    }
+      }
     ]
-}
+  }
