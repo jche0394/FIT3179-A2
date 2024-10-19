@@ -1,46 +1,72 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "data/stocks.csv"},
-    "width": 400,
-    "height": 300,
-    "encoding": {"x": {"field": "date", "type": "temporal"}},
+    "data": {
+    "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/combined_total_infringements.csv"
+    },
+    "width": 800,
+    "height": 400,
+    "encoding": {
+    "x": {
+        "field": "Year",
+        "type": "ordinal",
+        "axis": {"title": "Year"}
+    }
+    },
     "layer": [
     {
         "encoding": {
-          "color": {"field": "symbol", "type": "nominal"},
-          "y": {"field": "price", "type": "quantitative"}
+        "color": {
+            "field": "CityLink",
+            "type": "nominal",
+            "legend": {"title": "Road"}
+        },
+        "y": {
+            "field": "Total Infringements",
+            "type": "quantitative",
+            "axis": {"title": "Total Infringements"}
+        }
         },
         "layer": [
-          {"mark": "line"},
-          {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
+        {"mark": "line"},
+        {
+            "transform": [{"filter": {"param": "hover", "empty": false}}],
+            "mark": "point"
+        }
         ]
-      },
-      {
-        "transform": [{"pivot": "symbol", "value": "price", "groupby": ["date"]}],
+    },
+    {
+        "transform": [
+        {"pivot": "CityLink", "value": "Total Infringements", "groupby": ["Year"]}
+        ],
         "mark": "rule",
         "encoding": {
-          "opacity": {
+        "opacity": {
             "condition": {"value": 0.3, "param": "hover", "empty": false},
             "value": 0
-          },
-          "tooltip": [
-            {"field": "AAPL", "type": "quantitative"},
-            {"field": "AMZN", "type": "quantitative"},
-            {"field": "GOOG", "type": "quantitative"},
-            {"field": "IBM", "type": "quantitative"},
-            {"field": "MSFT", "type": "quantitative"}
-          ]
         },
-        "params": [{
-          "name": "hover",
-          "select": {
+        "tooltip": [
+            {"field": "Year", "type": "ordinal"},
+            {"field": "CityLink", "type": "quantitative", "format": ","},
+            {"field": "EastLink", "type": "quantitative", "format": ","},
+            {"field": "Geelong Road", "type": "quantitative", "format": ","},
+            {"field": "Hume Freeway", "type": "quantitative", "format": ","},
+            {"field": "Monash", "type": "quantitative", "format": ","},
+            {"field": "Peninsula Link", "type": "quantitative", "format": ","},
+            {"field": "Western Ring Road", "type": "quantitative", "format": ","}
+        ]
+        },
+        "params": [
+        {
+            "name": "hover",
+            "select": {
             "type": "point",
-            "fields": ["date"],
+            "fields": ["Year"],
             "nearest": true,
             "on": "pointerover",
             "clear": "pointerout"
-          }
-        }]
-      }
+            }
+        }
+        ]
+    }
     ]
-  }
+}
