@@ -6,28 +6,14 @@
   "projection": {
     "type": "conicEqualArea",
     "parallels": [-36, -38],
-    "rotate": [-145, 0, 0],
-    "clip": true
-  },
-  "selection": {
-    "grid": {
-      "type": "interval",
-      "bind": "scales"
-    }
+    "rotate": [-145, 0, 0]
   },
   "layer": [
     {
-      "mark": {
-        "type": "geoshape",
-        "fill": "gainsboro",
-        "stroke": "white"
-      },
+      "mark": {"type": "geoshape", "fill": "gainsboro", "stroke": "white"},
       "data": {
         "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/melbtop.json",
-        "format": {
-          "type": "topojson",
-          "feature": "vic_localities"
-        }
+        "format": {"type": "topojson", "feature": "vic_localities"}
       },
       "encoding": {
         "tooltip": [
@@ -40,11 +26,7 @@
       }
     },
     {
-      "mark": {
-        "type": "circle",
-        "color": "blue",
-        "opacity": 0.7
-      },
+      "mark": {"type": "circle", "color": "blue", "opacity": 0.7},
       "data": {
         "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/geodata.csv"
       },
@@ -66,25 +48,9 @@
     }
   ],
   "config": {
-    "view": {
-      "stroke": null
-    },
-    "axis": {
-      "labelFont": "Oxygen",
-      "titleFont": "Oxygen"
-    },
-    "legend": {
-      "labelFont": "Oxygen",
-      "titleFont": "Oxygen"
-    },
-    "header": {
-      "labelFont": "Oxygen",
-      "titleFont": "Oxygen"
-    },
-    "title": {
-      "font": "Oxygen",
-      "fontSize": 16,
-      "fontWeight": 600
-    }
+    "view": {"stroke": null},
+    "axis": {"labelFont": "Oxygen", "titleFont": "Oxygen"},
+    "legend": {"labelFont": "Oxygen", "titleFont": "Oxygen"},
+    "header": {"labelFont": "Oxygen", "titleFont": "Oxygen"}
   }
 }

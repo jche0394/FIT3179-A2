@@ -120,10 +120,8 @@
 
     </div>
 
-    <!-- JavaScript to load visualizations -->
     <script type="text/javascript">
-        // Load map visualization (mobile speed camera locations in Victoria)
-        var mapSpec = "./visualisations/map.json";  // You will need to provide a Vega or Vega-Lite spec for the map
+        var mapSpec = "./visualisations/map.json";
         vegaEmbed('#mapVis', mapSpec, { "actions": false });
 
         // Load stacked line chart visualization (number of infringements on highways)
