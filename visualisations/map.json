@@ -113,8 +113,7 @@
         "size": {"value": 10},
         "tooltip": [
           {"field": "Road", "type": "nominal", "title": "Road"},
-          {"field": "Suburb", "type": "nominal", "title": "Suburb"},
-          {"field": "Address", "type": "nominal", "title": "Formatted Address"}
+          {"field": "Suburb", "type": "nominal", "title": "Suburb"}
         ]
       }
     }
