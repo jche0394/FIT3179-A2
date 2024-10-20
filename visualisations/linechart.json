@@ -1,6 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
+    "height": "container",
     "title": {
     "text": "Total Infringements Across Major Victorian Roads Over Time",
     "subtitle": "A temporal analysis of traffic infringements on key roads in Victoria",
