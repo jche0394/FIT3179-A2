@@ -2,82 +2,82 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
     "data": {
-      "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/combined-driver-compliance.csv",
-      "format": {"type": "csv"}
+    "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/combined-driver-compliance.csv",
+    "format": {"type": "csv"}
     },
     "title": {
-      "text": "Fixed and Mobile Camera Compliance Rates Over Time",
-      "subtitle": "A comparison of fixed and mobile camera compliance rates from July 2006 to March 2024",
-      "anchor": "start",
-      "fontSize": 18
+    "text": "Fixed and Mobile Camera Compliance Rates Over Time",
+    "subtitle": "A comparison of fixed and mobile camera compliance rates from July 2006 to March 2024",
+    "anchor": "start",
+    "fontSize": 18
     },
     "transform": [
-      {
+    {
         "calculate": "datum.Source === 'Dataset1' ? 'Mobile Camera Compliance' : 'Fixed Camera Compliance'",
         "as": "Source"
-      },
-      {
+    },
+    {
         "calculate": "year(datum.Quarter)",
         "as": "Year"
-      },
-      {
+    },
+    {
         "filter": "datum.Year >= yearFilter"
-      }
+    }
     ],
     "params": [
-      {
+    {
         "name": "yearFilter",
         "value": 2006,
         "bind": {
-          "input": "range",
-          "min": 2006,
-          "max": 2023,
-          "step": 1,
-          "name": "Select Starting Year: "
+        "input": "range",
+        "min": 2006,
+        "max": 2023,
+        "step": 1,
+        "name": "Select Starting Year: "
         }
-      }
+    }
     ],
     "mark": {
-      "type": "area",
-      "opacity": 0.8
+    "type": "area",
+    "opacity": 0.8
     },
     "encoding": {
-      "x": {
+    "x": {
         "field": "Quarter",
         "type": "temporal",
         "axis": {
-          "labelAngle": -45,
-          "labelFontSize": 14,
-          "labelPadding": 15
+        "labelAngle": -45,
+        "labelFontSize": 14,
+        "labelPadding": 15
         }
-      },
-      "y": {
+    },
+    "y": {
         "field": "Compliance Rate",
         "type": "quantitative",
         "scale": {
-          "domain": [94, 100],
-          "clamp": true
+        "domain": [94, 100],
+        "clamp": true
         },
         "axis": {
-          "title": "Compliance Rate (%)",
-          "titleFontSize": 14,
-          "labelFontSize": 12
+        "title": "Compliance Rate (%)",
+        "titleFontSize": 14,
+        "labelFontSize": 12
         }
-      },
-      "color": {
+    },
+    "color": {
         "field": "Source",
         "type": "nominal",
         "legend": {
-          "title": "Data Source",
-          "orient": "bottom",
-          "titleFontSize": 14,
-          "labelFontSize": 12
+        "title": "Data Source",
+        "orient": "bottom",
+        "titleFontSize": 14,
+        "labelFontSize": 12
         }
-      },
-      "tooltip": [
+    },
+    "tooltip": [
         {"field": "Quarter", "type": "temporal"},
         {"field": "Compliance Rate", "type": "quantitative"},
         {"field": "Source", "type": "nominal"}
-      ]
+    ]
     }
-  }
+}
