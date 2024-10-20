@@ -1,0 +1,73 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": "container",
+    "description": "A scatter plot comparing total infringements and revenue by camera system over 5 years (2018 to 2022) with improved color, interactivity, and point size.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/jche0394/FIT3179-A2/refs/heads/main/data/scatterplot.csv",
+      "format": {
+        "type": "csv"
+      }
+    },
+    "params": [
+      {
+        "name": "cameraSystemSelection",
+        "value": "All",
+        "bind": {
+          "input": "select",
+          "options": ["All", "CITYLINK CAMERA SYSTEM", "EASTLINK CAMERA SYSTEM", "GEELONG ROAD CAMERA SYSTEM", "HUME FREEWAY CAMERA SYSTEM", "MOBILE CAMERA SYSTEM", "MONASH CAMERA SYSTEM", "PENINSULA LINK CAMERA SYSTEM", "SPEED AND RED-LIGHT INTERSECTION CAMERA SYSTEMS", "WESTERN RING ROAD CAMERA SYSTEM"],
+          "name": "Select Camera System: "
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "cameraSystemSelection == 'All' || datum['Camera System'] == cameraSystemSelection"
+      }
+    ],
+    "mark": {
+      "type": "point",
+      "opacity": 0.8,
+      "filled": true,
+      "tooltip": true
+    },
+    "encoding": {
+      "x": {
+        "field": "Total Infringements",
+        "type": "quantitative",
+        "axis": {"title": "Total Infringements"}
+      },
+      "y": {
+        "field": "Revenue",
+        "type": "quantitative",
+        "axis": {"title": "Revenue ($)"}
+      },
+      "color": {
+        "field": "Year",
+        "type": "ordinal",
+        "legend": {"title": "Year"},
+        "scale": {
+          "range": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e"] 
+        }
+      },
+      "size": {
+        "field": "Total Infringements",
+        "type": "quantitative",
+        "scale": {"range": [50, 500]},
+        "legend": null
+      },
+      "tooltip": [
+        {"field": "Camera System", "type": "nominal", "title": "Camera System"},
+        {"field": "Total Infringements", "type": "quantitative", "title": "Total Infringements", "format": ",d"},
+        {"field": "Revenue", "type": "quantitative", "title": "Revenue ($)", "format": "$,.2f"},
+        {"field": "Year", "type": "ordinal", "title": "Year"}
+      ]
+    },
+    "title": {
+      "text": "Analysis of Total Infringements and Revenue by Camera System (2018-2022)",
+      "subtitle": "Colored by year, sized by total infringements",
+      "fontSize": 18,
+      "subtitleFontSize": 14,
+      "anchor": "start"
+    }
+  }

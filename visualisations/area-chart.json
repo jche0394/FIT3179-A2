@@ -31,7 +31,7 @@
         "bind": {
           "input": "range",
           "min": 2006,
-          "max": 2024,
+          "max": 2023,
           "step": 1,
           "name": "Select Starting Year: "
         }
